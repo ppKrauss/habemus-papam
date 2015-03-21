@@ -11,6 +11,6 @@ This project presents a popular _template_ that illustrates, by a 400 years-old 
 
 See [Introduction](../../wiki/Introduction)
 
-PS: this projects can use [smallest-template-system](../smallest-template-system).
+PS: this projects can use [smallest-template-system](../../../smallest-template-system).
 
 
