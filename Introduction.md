@@ -35,14 +35,14 @@ Before the first appearance of the papa at the balcony of Saint Peter's Basilica
 This is the official template, expressed in plain text with placeholders in the [conventions above](#Conventions.md):
 
 ```xml
-
 Annuntio vobis gaudium magnum;
 Habemus Papam:
 
 Eminentissimum ac reverendissimum Dominum,
 Dominum {$FirstName!latinAccusativeCase}
 Sanctæ Romanæ Ecclesiæ Cardinalem {$LastName!latinUndeclinedForm},
-qui sibi nomen imposuit {$PapalName!latinGenitiveCase}.```
+qui sibi nomen imposuit {$PapalName!latinGenitiveCase}.
+```
 
 It is a  [simple placeholder template](https://code.google.com/p/smallest-template-system/wiki/SimplestAlgorithm#Expand_function), but the _placeholder resolution_ have some complexity.
 
@@ -54,14 +54,14 @@ modify the template to a simplified version (see below).
 ## Simplified version ##
 
 ```xml
-
 Annuntio vobis gaudium magnum;
 Habemus Papam:
 
 Eminentissimum ac reverendissimum Dominum,
 Dominum {$FirstName}
 Sanctæ Romanæ Ecclesiæ Cardinalem {$LastName},
-qui sibi nomen imposuit {$PapalName}.```
+qui sibi nomen imposuit {$PapalName}.
+```
 
 This is template use _direct_ expansion, so is the simplest and more usual for template systems.
 
@@ -143,9 +143,7 @@ As example, the English translation will be "_I announce to you a great joy: we 
 See _downloads_ for the complete dataset.
 
 
-
-
-&lt;hr/&gt;
+------
 
 
 HISTORICAL NOTES AND SOURCES:
