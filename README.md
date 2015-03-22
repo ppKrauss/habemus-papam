@@ -13,4 +13,9 @@ See [Introduction](../../wiki/Introduction)
 
 PS: this projects can use [smallest-template-system](../../../smallest-template-system).
 
+## Input data 
+Using the [OKFN datasets standards](https://github.com/datasets) standards: datapackage.json, data/CSV and conversors.
+
+## Template
+For each popular template language (XSLT, Mustache, Django, etc.) the correspondent extension files. Reference file: XSLT.
 
