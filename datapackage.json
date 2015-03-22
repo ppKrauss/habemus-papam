@@ -41,25 +41,49 @@
             "description": "Day of the election",
             "type": "string"
           },
-
           {
-            "name": "name",
-            "description": "Papa's original (complete) name",
+            "name": "givenName",
+            "description": "Papa's original given name (usual person's first name). Ref http://schema.org/givenName",
             "type": "string"
           },
           {
-            "name": "electedName_en",
-            "description": "Papa's offical English (elected) name",
+            "name": "familyName",
+            "description": "Papa's original family name (usual person's last name). Ref http://schema.org/familyName",
             "type": "string"
           },
           {
-            "name": "electedName_it",
-            "description": "Papa's offical Italian (elected) name",
+            "name": "papalName_en",
+            "description": "(papal name) Papa's offical English (elected) name",
             "type": "string"
           },
           {
-            "name": "electedName_es",
-            "description": "Papa's offical Spanish (elected) name",
+            "name": "papalName_it",
+            "description": "(papal name) Papa's offical Italian (elected) name",
+            "type": "string"
+          },
+          {
+            "name": "papalName_es",
+            "description": "(papal name) Papa's offical Spanish (elected) name",
+            "type": "string"
+          },
+          {
+            "name": "papalName_la_genit",
+            "description": "(papal name) Papa's offical Latin (elected) name, in genitive case",
+            "type": "string"
+          },
+          {
+            "name": "honorificPrefix_la",
+            "description": "Honorific prefix preceding a person's name in the announcement. Ref http://schema.org/honorificPrefix",
+            "type": "string"
+          },
+          {
+            "name": "givenName_la_accus",
+            "description": "Original given name translated to Latin accusative case. Ref http://schema.org/givenName",
+            "type": "string"
+          },
+          {
+            "name": "familyName_la_undecl",
+            "description": "Original family name translated to Latin undeclined form. Ref http://schema.org/givenName",
             "type": "string"
           }
         ]
