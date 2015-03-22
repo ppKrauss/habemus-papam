@@ -1,0 +1,73 @@
+{
+  "name": "habemus-papam/input",
+  "title": "Source-code and database for benchmark or test any template system, inputs",
+  "format": "csv",
+  "datapackage_version": "1.0-beta.1",
+  "licenses": [
+    {
+      "id": "odc-pddl",
+      "name": "Public Domain Dedication and License",
+      "version": "1.0",
+      "url": "http://opendatacommons.org/licenses/pddl/1.0/"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Wikipedia English, Habemus Papam",
+      "web": "https://en.wikipedia.org/wiki/Habemus_Papam"
+    },
+    {
+      "name": "Wikipedia italiano, Habemus Papam",
+      "web": "https://it.wikipedia.org/wiki/Habemus_Papam"
+    },
+    {
+      "name": "Wikipedia Español, Habemus Papam",
+      "web": "https://es.wikipedia.org/wiki/Habemus_Papam"
+    }
+  ],
+  "resources": [
+    {
+      "url": "https://github.com/ppKrauss/habemus-papam",
+      "path": "data/habemus-papam.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "year",
+            "description": "Year of the election",
+            "type": "integer"
+          },
+          {
+            "name": "day",
+            "description": "Day of the election",
+            "type": "string"
+          },
+
+          {
+            "name": "name",
+            "description": "Papa's original (complete) name",
+            "type": "string"
+          },
+          {
+            "name": "electedName_en",
+            "description": "Papa's offical English (elected) name",
+            "type": "string"
+          },
+          {
+            "name": "electedName_it",
+            "description": "Papa's offical Italian (elected) name",
+            "type": "string"
+          },
+          {
+            "name": "electedName_es",
+            "description": "Papa's offical Spanish (elected) name",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ],
+  "maintainers":[{
+    "name": "PPKRAUSS",
+    "web": "https://github.com/ppKrauss"
+  }]
+}
