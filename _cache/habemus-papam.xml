@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!-- CSV data converted by csv2etc.php -->
+<table>
+	<row year="1534" day="October 13" givenName="Alessandro" familyName="Farnese" papalName_en="Paul III" papalName_it="Paolo III" papalName_es="Paulo III" papalName_la_genit="Paulus Tertius" honorificPrefix_la="Cardinalem de" givenName_la_accus="Alexandrum" familyName_la_undecl="Farnesio"/>
+
+	<row year="1644" day="September 15" givenName="Giovanni Battista" familyName="Pamphili" papalName_en="Innocent X" papalName_it="Innocenzo X" papalName_es="Inocencio X" papalName_la_genit="Innocentium Decimum" honorificPrefix_la="Cardinalem" givenName_la_accus="Johannem Baptistum" familyName_la_undecl="Pamphilium"/>
+
+	<row year="1655" day="April 7" givenName="Fabio" familyName="Chigi" papalName_en="Alexander VII" papalName_it="Alessandro VII" papalName_es="Alejandro VII" papalName_la_genit="Alexandrum Septimum" honorificPrefix_la="Presbyterum Cardinalem" givenName_la_accus="Fabium" familyName_la_undecl="Chisium"/>
+
+	<row year="1676" day="September 21" givenName="Benedetto" familyName="Odeschalchi" papalName_en="Innocent XI" papalName_it="Innocenzo XI" papalName_es="Inocencio XI" papalName_la_genit="Innocentium Undecimum" honorificPrefix_la="Cardinalem" givenName_la_accus="Benedictum" familyName_la_undecl="Odeschalcum"/>
+
+	<row year="1721" day="May 8" givenName="Michelangelo" familyName="Conti" papalName_en="Innocent XIII" papalName_it="Innocenzo XIII" papalName_es="Inocencio XIII" papalName_la_genit="Innocentius Tertius Decimus" honorificPrefix_la="Presbyterum Cardinalem de" givenName_la_accus="Michaelem Angelum" familyName_la_undecl="Comitibus"/>
+
+	<row year="1724" day="May 29" givenName="Vincenzo Maria" familyName="Orsini" papalName_en="Pope Benedict XIII" papalName_it="Papa Benedetto XIII" papalName_es="Papa Benedicto XIII" papalName_la_genit="Benedictus Tertius Decimus" honorificPrefix_la="Fratrem" givenName_la_accus="Vincentium Mariam" familyName_la_undecl="Ursinum"/>
+
+	<row year="1775" day="February 15" givenName="Giovanni Angelo" familyName="Braschi" papalName_en="Pope Pius VI" papalName_it="Papa Pio VI" papalName_es="Papa Pío VI" papalName_la_genit="Pius Sextus" honorificPrefix_la="Presbyterum Cardinalem" givenName_la_accus="Ioannem Angelum" familyName_la_undecl="Braschi"/>
+
+	<row year="1823" day="September 28" givenName="Annibale" familyName="Della Genga" papalName_en="Pope Leo XII" papalName_it="Papa Leone XII" papalName_es="Papa León XII" papalName_la_genit="Leo Duodecimus" honorificPrefix_la="Cardinalem" givenName_la_accus="Annibalem" familyName_la_undecl="Della Genga"/>
+
+	<row year="1831" day="February 2" givenName="Mauro" familyName="Cappellari" papalName_en="Pope Gregory XVI" papalName_it="Papa Gregorio XVI" papalName_es="Papa Gregorio XVI" papalName_la_genit="Gregorium Sextum Decimum" honorificPrefix_la="Cardinalem" givenName_la_accus="Maurum" familyName_la_undecl="Cappellari"/>
+
+	<row year="1846" day="June 16" givenName="Giovanni Maria" familyName="Mastai Ferretti" papalName_en="Pope Pius IX" papalName_it="Papa Pio IX" papalName_es="Papa Pío IX" papalName_la_genit="Pius Nonus" honorificPrefix_la="Presbyterum Cardinalem" givenName_la_accus="Ioannem Mariam" familyName_la_undecl="Mastai Ferretti"/>
+
+	<row year="1939" day="March 2" givenName="Eugenio" familyName="Pacelli" papalName_en="Pope Pius XII" papalName_it="Papa Pio XII" papalName_es="Papa Pío XII" papalName_la_genit="Pium" honorificPrefix_la="Cardinalem" givenName_la_accus="Eugenium" familyName_la_undecl="Pacelli"/>
+
+	<row year="1958" day="October 28" givenName="Angelo Giuseppe" familyName="Roncalli" papalName_en="Pope John XXIII" papalName_it="Papa Giovanni XXIII" papalName_es="Papa Juan XXIII" papalName_la_genit="Ioannis Vigesimi Tertii" honorificPrefix_la="Cardinalem" givenName_la_accus="Angelum Iosephum" familyName_la_undecl="Cardinalem Roncalli"/>
+
+	<row year="1963" day="June 21" givenName="Giovanni Battista" familyName="Montini" papalName_en="Pope Paul VI" papalName_it="Papa Paolo VI" papalName_es="Papa Pablo VI" papalName_la_genit="Paulum Sextum" honorificPrefix_la="Cardinalem" givenName_la_accus="Ioannem Baptistam" familyName_la_undecl="Montini"/>
+
+	<row year="1978" day="August 26" givenName="Albino" familyName="Luciani" papalName_en="Pope John Paul I" papalName_it="Papa Giovanni Paolo I" papalName_es="Papa Juan Pablo I" papalName_la_genit="Ioannis Pauli Primi" honorificPrefix_la="Cardinalem" givenName_la_accus="Albinum" familyName_la_undecl="Luciani"/>
+
+	<row year="1978" day="October 16" givenName="Karol" familyName="Wojtyła" papalName_en="Pope John Paul II" papalName_it="Papa Giovanni Paolo II" papalName_es="Papa Juan Pablo II" papalName_la_genit="Ioannis Pauli" honorificPrefix_la="Cardinalem" givenName_la_accus="Carolum" familyName_la_undecl="Wojtyła"/>
+
+	<row year="2005" day="April 19" givenName="Joseph" familyName="Ratzinger" papalName_en="Pope Benedict XVI" papalName_it="Papa Benedetto XVI" papalName_es="Papa Benedicto XVI" papalName_la_genit="Benedicti Decimi Sexti" honorificPrefix_la="Cardinalem" givenName_la_accus="Iosephum" familyName_la_undecl="Ratzinger"/>
+
+	<row year="2013" day="March 13" givenName="Jorge Mario" familyName="Bergoglio" papalName_en="Pope Francis" papalName_it="Papa Francesco" papalName_es="Papa Francisco" papalName_la_genit="Franciscum" honorificPrefix_la="Cardinalem" givenName_la_accus="Georgium Marium" familyName_la_undecl="Bergoglio"/>
+
+</table>

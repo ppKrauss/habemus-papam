@@ -33,7 +33,7 @@
         "fields": [
           {
             "name": "year",
-            "description": "Year of the election",
+            "description": "Year of the papal election",
             "type": "integer"
           },
           {

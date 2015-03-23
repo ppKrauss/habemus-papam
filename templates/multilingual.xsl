@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <!-- ============================================================= -->
-<!--  MODULE:   offcial papal announcements                        -->
+<!--  MODULE:   simplifyed papal announcements                     -->
 <!--  VERSION:  1.0                DATE: 2015/03                   -->
+<!-- the chinese formula need consistent inputs por chinese papal name
+ https://zh.wikipedia.org/wiki/Habemus_Papam
+	我要向你们报告一个大喜讯：
+	我们有教宗了！
+	他是最尊贵且最可敬的
+	[教名]大人，
+	至圣罗马教会的[姓氏]枢机，
+	他称自己为[教宗称号]。
+an solution is a robot to get papal names from it or en wikis.
+-->
 <!-- ============================================================= -->
 
-<xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" exclude-result-prefixes="">
+<xsl:transform version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+	xmlns:fn="http://php.net/xsl" exclude-result-prefixes="fn"
+>
   <xsl:output encoding="UTF-8" method="xml" indent="yes" omit-xml-declaration="no" />
 
   <xsl:template match="/">
     <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;
-</xsl:text>
-	<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
+</xsl:text><html xmlns="http://www.w3.org/1999/xhtml">
+    <head> 
 		<meta charset="utf-8"/>
     	<title>Habemus Papam, offcial</title>
     	<style type="text/css">
@@ -32,10 +43,10 @@
 		    vertical-align: middle;
 			font-family: Arial;
 			font-size: 13pt;
-			color: #630;
+			color: #036;
 			text-align:left;
 		    padding: 6pt;
-		    border: 1px dotted #630;
+		    border: 1px dotted #036;
 		    margin: 6pt;
 		}
 		p { text-align:left }
@@ -44,7 +55,7 @@
     	</style> 
     </head> 
     <body>
-    	<h1>Official papal announcements</h1>    	
+    	<h1>Simplifyed papal announcements</h1>
 		<xsl:apply-templates select="//row"/>
     </body>
     </html>
@@ -64,14 +75,13 @@
 			</p>
 		</div>
 	 	<div class="announcement">
-			<p>Annuntio vobis gaudium magnum;
-				<br/> habemus Papam:
+			<p>I announce to you a great joy;
+				<br/> We have a Pope:
 			</p>
-			<p>Eminentissimum ac Reverendissimum Dominum,
-				<br/>Dominum <i><xsl:value-of select="@givenName_la_accus"/></i>
-				<br/>Sanctae Romanae Ecclesiae <xsl:value-of select="@honorificPrefix_la"/>
-					<i><xsl:value-of select="@familyName_la_undecl"/></i>
-				<br/>qui sibi nomen imposuit <i><xsl:value-of select="@papalName_la_genit"/></i>
+			<p>The most eminent and most reverend Lord,
+				<br/>the Lord <i><xsl:value-of select="@givenName"/></i>
+				<br/>Cardinal of the Holy Roman Church <i><xsl:value-of select="@familyName"/></i>
+				<br/>who takes to himself the name of  <i><xsl:value-of select="@papalName_en"/></i>
 			</p>
 		</div>
 	</div>
