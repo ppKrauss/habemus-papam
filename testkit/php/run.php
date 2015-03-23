@@ -17,7 +17,7 @@
 // // CONFIG:
   $_outputPath = '../../_result/php';
   $types    = array('o'=>'official', '2'=>'official2', 'm'=>'multilingual', 's'=>'simple');
-  $tplExts  = array('xsl','mst','sst','ssc'); // template-file extensions
+  $tplExts  = array('xsl','mst','sst','ssc','php'); // template-file extensions
 // // //
 
 $opt = array_keys( getopt('homs',$tplExts) );
@@ -43,23 +43,27 @@ if ($type=='h') die("\n Runs the indicated (flag+option) template and processor.
 
 $input = "../../_cache/habemus-papam.php";  // can change to more adequate one
 switch ($tpl) {
-	case 'sst':
+	case 'sst': // // SIMPLEST
 		include($input); // redefine	
 		$template = "../../templates/$type.sst";
 		$OUT = SstTS_templateProcessor($input,$template);
 		break;
-
-	case 'mst':
+	case 'mst': // // MUSTACHE
 		include($input); // redefine
-		$input = array('table'=>$input);
+		$input = array('table'=>$input); // need some iterator?  var_dump($input);
 		$template = "../../templates/$type.mst";
 		$OUT = MST_templateProcessor($input,$template);
 		break;
-
-	case 'xsl':
+	case 'xsl': // // XSLT
 		$input = "../../_cache/habemus-papam.xml";
 		$template = "../../templates/$type.xsl";
 		$OUT = XSL_templateProcessor($input,$template);
+		break;
+	case 'php': // // PURE PHP
+		include($input); // redefine
+		ob_start();
+		include "../../templates/$type.php";
+		$OUT = ob_get_clean();
 		break;
 
 	default: // XSLT
@@ -104,6 +108,7 @@ function MST_templateProcessor($input,$fmst) {
 	require('../../../mustache.php/src/Mustache/Autoloader.php');
 	Mustache_Autoloader::register();
 	$m = new Mustache_Engine;
+	$input['teste'] = '223223';
 	return $m->render( file_get_contents($fmst), $input );	
 }
 

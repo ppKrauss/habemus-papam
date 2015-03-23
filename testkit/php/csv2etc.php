@@ -71,6 +71,7 @@ function getStdCSV($fcsv) {
 }
 
 function xml_encode($strut) {
+  // or use  SimpleXMLElement() as suggested by http://stackoverflow.com/a/29214164/287948
   $OUT = '<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>'.
         "\n<!-- CSV data converted by csv2etc.php -->".
         "\n<table>";
@@ -82,3 +83,5 @@ function xml_encode($strut) {
 }
 
 ?>
+
+

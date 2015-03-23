@@ -38,6 +38,10 @@
     </head> 
     <body>
     	<h1>Official papal announcements</h1>
+    	x={{teste}}
+{{#table}}test1 		{{/table}}
+{{#table2}}test2 		{{/table2}}
+
 		{{#table}}
 		<h2>{{familyName}}, {{givenName}}</h2>
 		<div class="row">
