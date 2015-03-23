@@ -15,7 +15,7 @@ The **_Habemus Papam_ template kit** is useful for benchmarking *template system
 
 This project presents the oldest "textual formula", that illustrates, by a 400 years-old real case,  the use of a template system. It can be used also by any algorithm promoted as being a "template processor",  for testing or benchmarking tasks.
 
-See **[Introduction](../../wiki/Introduction)** at Wiki.
+See **[Introduction](../../wiki/Home)** at Wiki.
 
 ## Input data 
 Using the [OKFN datasets standards](https://github.com/datasets) standards: 
