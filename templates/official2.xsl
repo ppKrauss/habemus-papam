@@ -18,33 +18,7 @@
     <head> 
 		<meta charset="utf-8"/>
     	<title>Habemus Papam, offcial</title>
-    	<style type="text/css">
-		div.row{    
-			display: table;
-			width: 100%;
-		}
-		.comment {
-			width: 50%;
-		    display: table-cell;
-		    vertical-align: middle;
-			font-size: 13pt;
-		    padding: 12pt 12pt 12pt 12pt;		
-		}
-		.announcement {
-			width: 50%;		
-		    display: table-cell;
-		    vertical-align: middle;
-			font-family: Arial;
-			font-size: 13pt;
-			color: #630;
-			text-align:left;
-		    padding: 6pt;
-		    border: 1px dotted #630;
-		    margin: 6pt;
-		}
-		p { text-align:left }
-		.pname { font-style: italic; font-size: 120%; }
-    	</style> 
+		<link rel="stylesheet" type="text/css" href="commom.css"/>
     </head> 
     <body>
     	<h1>Official papal announcements</h1>    	
